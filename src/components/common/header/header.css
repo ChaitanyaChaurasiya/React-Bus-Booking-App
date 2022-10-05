@@ -1,0 +1,98 @@
+header {
+  background-color: #fff;
+  height: 10vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+header img {
+  width: 50px;
+}
+.logoName {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: #1154ef;
+}
+
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #3084e4;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+header .toggle {
+  display: none;
+}
+header .btn1 {
+  padding: 10px 10px;
+}
+
+header .iconSign {
+  font-size: 16px;
+  margin-right: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 15px;
+  }
+  header .logoName {
+    margin-top: 15px;
+  }
+
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 15px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #3084e4;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  header li a:hover {
+    color: #dfdfdf;
+  }
+  header .toggleIcon {
+    font-size: 20px;
+    margin-top: 2px;
+  }
+
+  .btnToggle {
+    padding: 10px 15px;
+    margin-bottom: 5px;
+  }
+}

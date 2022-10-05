@@ -1,0 +1,71 @@
+.noBus {
+  text-align: center;
+  margin: 10% auto;
+  font-size: 40px;
+  color: #6d6d83;
+}
+
+.totalBus {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.containerBus .box {
+  box-shadow: 0 0 10px 0 rgb(112 121 138 / 20%);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.containerBus .box:hover {
+  box-shadow: 0 0 10px 0 rgba(112 121 138 / 40%);
+}
+
+.box > * span {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0 10px;
+}
+
+.busPlace {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.busSetData > .busAvailSet {
+  display: none;
+}
+.busSetData > .busWindSet {
+  display: none;
+}
+.busName {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.busExt {
+  padding: 10px;
+}
+.busAmenities > * {
+  font-size: 30px;
+  margin-right: 15px;
+  opacity: 0.5;
+}
+
+.busSeatBtn {
+  font-size: 16px;
+  padding: 12px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .busSetData > .busAvailSet {
+    display: block;
+  }
+  .busSetData > .busWindSet {
+    display: block;
+  }
+
+  .busAvailData {
+    display: none;
+  }
+}

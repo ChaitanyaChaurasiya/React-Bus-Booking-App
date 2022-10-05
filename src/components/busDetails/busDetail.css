@@ -1,0 +1,11 @@
+.seatBoxMain {
+  box-shadow: 0 0 10px 0 rgb(112 121 138 / 20%);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,26 @@
+.recommended .text {
+  padding: 30px;
+}
+.recommended .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+.recommended .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+.recommended p {
+  color: #72809d;
+}
+.recommended .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+
+.recommended .btnPrice {
+  padding: 10px 15px;
+  background-color: #3084e4;
+}

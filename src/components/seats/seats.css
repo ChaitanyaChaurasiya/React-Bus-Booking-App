@@ -1,0 +1,73 @@
+.row {
+  display: flex;
+}
+.row1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.seatBox {
+  box-shadow: 0 0 10px 0 rgb(112 121 138 / 25%);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 20px 10px;
+}
+.seatBox:hover {
+  box-shadow: 0 0 10px 0 rgba(112 121 138 / 40%);
+}
+
+.seatBoxData {
+  margin: 50px 10px 20px 0;
+  width: 45%;
+  box-shadow: 0 0 10px 0 rgb(112 121 138 / 25%);
+}
+.seats {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 4rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: black;
+  align-items: center;
+  border: 0.15rem solid gray;
+  margin: 0.5rem;
+}
+.seats:hover {
+  background-color: #dfdfdf;
+  color: black;
+  border: 0.15rem solid black;
+}
+
+.select {
+  background-color: #dfdfdf;
+}
+
+.seats:disabled {
+  border: 0.15rem solid gray;
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.mg {
+  margin: 15px 20px;
+}
+.ml {
+  margin: 10px;
+  align-items: center;
+}
+.ml > * {
+  margin: 0px 7px;
+}
+
+.noSeat {
+  font-size: 35px;
+  color: grey;
+  margin: 32% 20%;
+}
+
+.payBtn {
+  padding: 12px 15px;
+  margin: 25px 0 0 55%;
+}

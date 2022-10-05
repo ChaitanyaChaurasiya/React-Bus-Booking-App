@@ -1,0 +1,28 @@
+.searchBusSection {
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.flexColumns {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btnMod {
+  padding: 12px 10px;
+}
+
+.arrowIcon {
+  font-size: 25px;
+}
+.backIcon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .searchBusSection .sDate {
+    display: flex;
+    flex-direction: column;
+  }
+}
